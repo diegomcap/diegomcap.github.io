@@ -16,8 +16,8 @@
 
         .image-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+            flex-direction: column; /* Altere para coluna para visualização vertical */
+            align-items: center; /* Centralize horizontalmente */
             max-width: 100%;
         }
 
@@ -27,7 +27,7 @@
             cursor: pointer;
             max-width: 100%;
             height: auto;
-            object-fit: contain; /* Adicione esta linha para ajustar a imagem */
+            object-fit: contain;
         }
 
         .imagem3:hover {
