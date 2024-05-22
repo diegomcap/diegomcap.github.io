@@ -10,23 +10,24 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
+            margin: 0;
+            padding: 0;
         }
 
         .image-container {
             display: flex;
-            flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+            flex-wrap: wrap;
             justify-content: center;
-            max-width: 100%; /* Ensure images don't overflow on small screens */
+            max-width: 100%;
         }
 
         .imagem3 {
-            margin: 10px; /* Add spacing around images */
+            margin: 10px;
             transition: all 0.5s;
             cursor: pointer;
-            max-width: 100%; /* Ensure images don't exceed their container */
-            height: auto; /* Maintain aspect ratio */
+            max-width: 100%;
+            height: auto;
+            object-fit: contain; /* Adicione esta linha para ajustar a imagem */
         }
 
         .imagem3:hover {
